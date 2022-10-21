@@ -5,10 +5,15 @@
     color:black;
 }
 header > h1{
-    text-align: center;
     color : #A1C298;
     padding: 10px;
-    background-color: black;
+    text-align: center;
+}
+header{
+    width:100%; 
+    z-index:1000; 
+    position:fixed;
+    background:black;
 }
 footer{
     background-color: black;
@@ -23,13 +28,13 @@ footer > a{
     text-align: center;
     margin: 12px;
 }
-.cards-1{
+.cards-1.mt-0{
     margin-top: 0;
 }
-.cards-2{
+.cards-2.m-1{
     margin: 1rem;
 }
-.cards-3{
+.cards-3.mb-0{
     margin-bottom: 0;
 }
 .cards-1, .cards-2, .cards-3{
@@ -44,6 +49,7 @@ footer > a{
     background-color: #FBF2CF;
     width: 300px;
     border-radius: 35px;
+    margin-top: 75px;
 }
 .card > img {
     width: 300px;
