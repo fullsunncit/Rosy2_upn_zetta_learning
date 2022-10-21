@@ -1,0 +1,33 @@
+*{
+    font-family: 'Josefin Sans',sans-serif;
+}
+header > h1{
+    text-align: center;
+    color : #06283D;
+}
+.kotak > h4{
+    color :#256D85;
+    text-align: center;
+}
+
+.cards{
+    border: 3px solid #06283D;
+    display: flex;
+    padding: 8px;
+    background-color: #47B5FF;
+}
+
+.card{
+    border: 2px solid #256D85;
+    margin: 10px;
+    background-color: #DFF6FF;
+}
+
+.kotak{
+    padding: 5px;
+}
+
+.card > img {
+    width: 100%;
+    object-fit: contain;
+}
