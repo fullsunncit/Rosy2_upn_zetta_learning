@@ -15,8 +15,14 @@
         h1{
             color: #553939;
         }
-        h1, p, .poto{
+        h1, p, .poto, .video, .form{
             text-align:center;
+        }
+        .day4{
+            padding-top:10px;
+        }
+        audio{
+            padding-top: 11px;
         }
     </style>
     
@@ -25,9 +31,9 @@
     <div class="container" >
         <h1> <b>BIODATA DIRI</b></h1>
         <div class="poto">
-            <img src="rosy.jpg" alt="myself" style="width:100px; margin-bottom:10px;"> 
+            <img src="img/rosy.jpg" alt="myself" style="width:100px; margin-bottom:10px;"> 
         </div>
-        <table cellpadding="5" align="center" border="1">
+        <table cellpadding="5" align="center" border="1" >
             <tr>
                 <td>Nama</td>
                 <td>:</td>
@@ -64,6 +70,94 @@
         </a> <br> 
         &commat;onyourrosy
         </p>
+    </div>
+
+    <div class="day4">
+        <h1>My Playlist</h1>
+        <table cellpadding="15" align="center" border="1">
+            <tr align="center" bgcolor="#A8A4CE">
+                <td>
+                    <img src="img/bbibbi.png" alt="" style="width:250px; padding-bottom:10px;">
+                    <br><b>IU(아이유) - BBIBBI(삐삐)</b>
+                    <audio controls autoplay muted>
+                        <source src="music/bbibbi.mp3" type="audio/mpeg">
+                    </audio>
+                </td>
+                <td>
+                    <img src="img/blueming.png" alt="" style="width:250px; padding-bottom:10px;">
+                    <br><b>IU(아이유) - Blueming(블루밍)</b>
+                    <audio controls autoplay muted>
+                        <source src="music/blueming.mp3" type="audio/mpeg">
+                    </audio>
+                </td>
+                <td>
+                    <img src="img/eight.png" alt="" style="width:250px; padding-bottom:10px;">
+                    <br><b>IU(아이유) - eight(에잇) (Prod.&Feat. SUGA of BTS)</b>
+                    <audio controls autoplay muted>
+                        <source src="music/eight.mp3" type="audio/mpeg">
+                    </audio>
+                </td>
+            </tr>
+        </table>
+        <div class="video" style="padding:20px">
+            <iframe height="500" width="800" 
+            src="https://www.youtube.com/embed/Cxzzg7L3Xgc?autoplay=1&mute=1">
+            </iframe>
+        </div>
+        <div class="form">
+            <h1>Form Data Diri</h1>
+            <form>
+                <table align="center">
+                    <tr>
+                        <td><label for="fname">First name</label></td>
+                        <td>:</td>
+                        <td><input type="text" id="fname" name="fname" placeholder="Nur Rosydatun"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="lname">Last name</label></td>
+                        <td>:</td>
+                        <td><input type="text" id="lname" name="lname" placeholder="Nafiah"></td>
+                    </tr>
+                    <tr>
+                        <td> <label for="fbio">Biography</label></td>
+                        <td>:</td>
+                        <td><textarea name="bio" id="fbio" cols="30" rows="10" placeholder="Enter Your biography..."></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label for="fgender">Gender</label></td>
+                        <td>:</td>
+                        <td><input type="radio" name="jeniskelamin" value="pria"> Pria
+                            <input type="radio" name="jeniskelamin" value="wanita"> Wanita</td>
+                    </tr>
+                    <tr>
+                        <td><label for="femail">Email</label></td>
+                        <td>:</td>
+                        <td><input type="email" id="femail" name="femail" placeholder="nurrosyd13@gmail.com"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="fhp">Handphone</label></td>
+                        <td>:</td>
+                        <td><input type="tel" id="fhp" name="fhp" placeholder="08xxxxxxxxxx"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="fdate">Date Of Birth</label></td>
+                        <td>:</td>
+                        <td><input type="date" id="fdate" name="fdate"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="fig">Instagram</label></td>
+                        <td>:</td>
+                        <td><input type="url" id="fig" name="fig" placeholder="Enter url..."></td>
+                    </tr>
+                    <tr>
+                        <td> <label for="faddress">Address</label></td>
+                        <td>:</td>
+                        <td><textarea name="faddress" id="faddress" cols="30" rows="10" placeholder="Enter your address here..."></textarea></td>
+                    </tr>
+                </table>
+                
+            </form>
+        </div>
     </div>
     
 </body>
