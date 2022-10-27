@@ -1,0 +1,10 @@
+Kapan menggunakan array, tuple dan object?
+Jawab : 
+1.) Array
+Digunakan saat ingin menyimpan beberapa nilai dari tipe data yang berbeda secara berurutan,
+bisa berisi elemen dari semua tipe data yaitu angka, string, atau bahkan object.
+2.) Object
+Digunakan saat mengelompokkan dan menyebarkan data yang dapat menjadi anonymous juga dapat 
+diberi nama dengan menggunakan salah satu interface.
+3.) Tuple
+Berguna dlm convention-based APIs di mana arti setiap elemen adalah "jelas".
