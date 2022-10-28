@@ -1,0 +1,11 @@
+1. Membagi halaman menjadi beberapa komponen :
+component : search, voice input, notif, profile, 
+shorts, subscription, youtube music, koleksi, histori,
+image, judul, keterangan/detail, dll.
+
+2. Mengelompokkan komponen ke dalam beberapa modul :
+Modul header : search, voice input, notif, profile 
+Modul sidebar : shorts, subscription, youtube music, koleksi, histori, dll
+Modul content : image, judul, keterangan/detail
+
+3. Gambaran : tiga.jpeg 

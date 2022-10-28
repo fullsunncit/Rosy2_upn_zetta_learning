@@ -1,0 +1,36 @@
+Angular adalah platform dan framework yang digunakan untuk membangun aplikasi one-page client 
+menggunakan HTML dan TypeScript. Angular ditulis menggunakan TypeScript, untuk memudahkanmu dalam 
+implementasi fungsi inti dan opsional ke dalam aplikasi yang kamu buat. Arsitektur aplikasi Angular 
+bergantung pada konsep dasar tertentu. Blok penyusun dasarnya adalah NgModules, yang menyediakan 
+konteks kompilasi untuk komponen. NgModules mengumpulkan kode terkait ke dalam set fungsional. Aplikasi 
+Angular kemudian didefinisikan oleh satu set NgModules. Sebuah aplikasi memiliki setidaknya modul 
+root yang memungkinkan Bootstrap dan biasanya memiliki lebih banyak modul feature.
+
+Arsitektur aplikasi Angular bergantung pada konsep dasar tertentu. Blok bangunan dasar kerangka 
+kerja Angular adalah komponen Angular yang diatur ke dalam NgModules. NgModules mengumpulkan kode 
+terkait ke dalam set fungsional, aplikasi Angular didefinisikan oleh satu set NgModules. Aplikasi 
+selalu memiliki setidaknya modul root yang memungkinkan bootstrap, dan biasanya memiliki lebih banyak 
+modul fitur.
+
+NgModule merupakan sekumpulan komponen yang didedikasikan untuk domain aplikasi, alur kerja, atau 
+sekumpulan kemampuan yang terkait erat. Makanya, Angular NgModules berbeda dari modul JavaScript, tapi 
+juga bertugas untuk melengkapinya. Sebuah NgModule dapat mengasosiasikan komponennya dengan kode terkait, 
+seperti layanan, untuk membentuk unit fungsional. Setiap aplikasi Angular memiliki modul root, yang secara 
+konvensional dinamai AppModule. Modul ini menyediakan mekanisme Bootstrap yang meluncurkan aplikasi. 
+Oleh karena itu, sebuah aplikasi biasanya berisi banyak modul fungsional. Seperti modul JavaScript, 
+NgModules dapat mengimpor fungsionalitas dari NgModules lain, dan memungkinkan fungsionalitasnya sendiri 
+untuk diekspor dan digunakan oleh NgModules lain.
+
+Angular component adalah building block pada suatu project angular, yaitu dimana content dari aplikasi 
+diletakkan. Angular adalah platform dan kerangka kerja untuk membangun aplikasi klien dalam HTML dan 
+TypeScript. Angular ditulis dalam TypeScript. Ini mengimplementasikan fungsi inti dan opsional sebagai satu 
+set library TypeScript yang Anda impor ke aplikasi Anda.
+
+Komponen menggunakan layanan, yang menyediakan fungsi spesifik yang tidak terkait langsung dengan tampilan. 
+Penyedia layanan dapat disuntikkan ke dalam komponen sebagai dependensi, membuat kode Anda modular, dapat 
+digunakan kembali, dan efisien.
+
+Baik komponen dan layanan hanya kelas, dengan dekorator yang menandai jenis mereka dan memberikan metadata 
+yang memberi tahu Sudut cara menggunakannya. Metadata untuk kelas komponen mengaitkannya dengan template 
+yang mendefinisikan tampilan. Template menggabungkan HTML biasa dengan arahan Sudut dan markup mengikat 
+yang memungkinkan Angular untuk memodifikasi HTML sebelum menampilkannya untuk ditampilkan.
