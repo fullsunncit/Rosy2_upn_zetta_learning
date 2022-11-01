@@ -21,14 +21,14 @@ export class PaymentComponent implements OnInit, AfterContentChecked {
     this.total = this.items.reduce((total, item) => total += item.amount * item.price , 0)
   }
 
-  removeItem(itemToBeRemoved:SelectedItem){
-    const itemIndex = this.items.findIndex(({id}) => id ===itemToBeRemoved.id)
-    const itemRef = this.items[itemIndex]
-    if(this.items[itemIndex].amount>1){
-      this.items[itemIndex].amount-=1
-    }
-    else{
-      this.items.splice(itemIndex,1);
-    }
-  }
+  // removeItem(itemToBeRemoved:SelectedItem){
+  //   const itemIndex = this.items.findIndex(({id}) => id ===itemToBeRemoved.id)
+  //   const itemRef = this.items[itemIndex]
+  //   if(this.items[itemIndex].amount>1){
+  //     this.items[itemIndex].amount-=1
+  //   }
+  //   else{
+  //     this.items.splice(itemIndex,1);
+  //   }
+  // }
 }

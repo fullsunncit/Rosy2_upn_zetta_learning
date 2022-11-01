@@ -1,10 +1,9 @@
 <h2>Payment</h2>
 <div class="payment">
     <div *ngFor = "let item of items">
-        <span>{{ item.amount }} x {{item.name}}</span>
-        <span> Rp. {{ item.price }} </span>
-        <button class="hapus" click="removeItem(item)"> Remove </button>
+        <p>{{ item.amount }} x {{item.name}} Rp. {{ item.price }}</p>
+        <!-- <button class="hapus" click="removeItem(item)"> Remove </button> -->
     </div>
-    <br>
-    <h5>Total = Rp.</h5>
+    <!-- <br>
+    <h5>Total = Rp.</h5> -->
 </div>
