@@ -1,0 +1,6 @@
+<div *ngFor="let item of listItems;">
+    <div *ngIf="item.status == 'Active'" class="item">
+        <h4>{{ item.name }}</h4>
+        <p> {{ item.status }}</p>
+    </div>
+</div>

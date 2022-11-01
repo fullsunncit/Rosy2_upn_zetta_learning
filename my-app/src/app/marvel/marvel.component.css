@@ -1,0 +1,21 @@
+.item > h4{
+    text-align: center;
+    margin: 12px;
+    color: #4FA095;
+}
+
+.item > p{
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+
+.item{
+    border: 1px solid black;
+    margin: 0.6rem;
+    padding:1vw;
+    background-color: white;
+    height: 70px;
+    border-radius: 5px;
+    width: 15rem;
+}
