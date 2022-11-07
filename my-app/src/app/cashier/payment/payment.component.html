@@ -1,0 +1,13 @@
+<h2>Payment</h2>
+<div class="payment">
+    <div *ngFor = "let item of items">
+        <p>{{ item.amount }} x {{item.name}} Rp. {{ item.price }}</p>
+    </div>
+    <ng-template *ngIf="items.length > 0 then totalPayment; else noItem"></ng-template>
+    <ng-template #totalPayment>
+        <p>Total Payment : <b>Rp. {{ total }}</b></p><br>
+    </ng-template>
+    <ng-template #noItem>
+        <p>No items selected</p>
+    </ng-template>
+</div>
