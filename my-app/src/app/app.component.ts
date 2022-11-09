@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Angular Day 5';
+  title = 'Angular Day 6';
   isChild = false;
 
   InputName(value: any){
@@ -19,7 +19,7 @@ export class AppComponent {
   ngOnInit(): void { 
     console.log(' ')
   }
-  kasir(){
+  show(){
     this.isChild = !this.isChild
   }
 }

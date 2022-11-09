@@ -7,6 +7,7 @@ import { CashierModule } from './cashier/cashier.module';
 
 @NgModule({
   declarations: [
+    
     AppComponent
   ],
   imports: [

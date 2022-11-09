@@ -4,13 +4,15 @@
   </h1>
 </div>
 <div style="text-align: center; margin-bottom: 25px;">
-  <label>Name : </label>
+  <!-- <label>Name : </label>
   <input #Name type="text">
   <button (click)="InputName(Name.value)">Submit</button>
-  <br><br>
-  <h2> Welcome to Mie Gacoan! <br> {{Name.value}}</h2>
+  <br><br> -->
+  <h2> Welcome to Mie Gacoan!</h2>
   <br>
-  <button (click)="kasir()">Show Cashier</button>
+  <button [routerLink]="['..','cashier']" (click)="show()">Show Cashier</button>
+  <br><br>
+  <button [routerLink]="['..','employee']" (click)="show()">Show Employee</button>
 </div>
 
 <div>
